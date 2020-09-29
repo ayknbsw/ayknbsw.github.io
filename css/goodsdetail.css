@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/*基本レイアウト*/
+body,h1,p {
+    padding: 0;
+    margin: 0;
+    color: #777777;
+}
+body h1 {
+    text-align: center;
+}
+p.image {
+    text-align: center;
+}
+img {
+    width: 75%;
+}
+h1{
+    font-size: 24px;
+}
+p.caption {
+    font-size: 14px;
+    padding-left: 80px;
+}

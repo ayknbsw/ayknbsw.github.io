@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+    <title>Planque official website</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <link rel="stylesheet" href="css/flexslider.css">
+    <script src="js/myslider1.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css" media="screen and (max-width:480px)">
+</head>
+<body id="index">
+    <header id="top">
+        <h1><a href="index.html">HOME</a></h1>
+        <div id="logo"><a href="index.html"><img src="images/logo.png" alt="planque"></a></div>
+    </header>
+    <nav><ul>
+        <li id="nav_bio"><a href="biography.html">biography</a></li>
+        <li id="nav_live"><a href="live.html">live</a></li>
+        <li id="nav_disco"><a href="discography.html">discography</a></li>
+        <li id="nav_movie"><a href="movie.html">movie</a></li>
+        <li id="nav_goods"><a href="goods.html">goods</a></li>
+        <li id="nav_contact"><a href="contact.html">contact</a></li>
+    </ul></nav>
+    <div class="flexslider" id="myslider1">
+        <ul class="slides">
+            <li><img src="images/slide1.jpg" alt="" class="image1"></li>
+            <li><img src="images/slide2.jpg" alt="" class="image2"></li>
+            <li><a href="https://linkco.re/GhP0VM9b"><img src="images/slide3.jpg" alt="" class="image3"></a></li>
+        </ul>
+    </div>
+    <div id="contents">
+        <div id="news">
+            <h2><img src="images/news_title.png" alt="news"></h2>
+            <ul>
+                <li><time datetime="2020-08-12">2020年8月12日</time><a href="live.html">ライブ出演決定：9/12下北沢BREATH</a></li>
+                <li><time datetime="2020-06-14">2020年6月14日</time>twiCastingにて無観客スタジオライブ配信</li>
+                <li><time datetime="2020-06-01">2020年6月1日</time><a href="https://linkco.re/GhP0VM9b">「水平線」EP各種配信サイトにて配信開始</a></li>
+                <li><time datetime="2020-01-10">2020年1月10日</time><a href="live.html">ライブ出演決定：2/1新宿FNV</a></li>
+            </ul>
+        </div>
+        <div id="twitter">
+        <a class="twitter-timeline" href="https://twitter.com/planque_band?ref_src=twsrc%5Etfw">Tweets by planque_band</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
+    <div id="snslink">
+        <a href="https://twitter.com/planque_band"><img src="images/icon_twi.png" alt="twitter"></a>
+        <a href="https://www.youtube.com/channel/UCjK8LSRhoC-HtSQsME9w5OQ/featured"><img src="images/icon_youtube.png" alt="youtube"></a>
+        <a href="https://linkco.re/GhP0VM9b"><img src="images/icon_music.png" alt="music"></a>
+        <a href="contact.html"><img src="images/icon_mail.png" alt="contact"></a>
+    </div>
+    <footer>
+        <p id="pagetop"><a href="#"><img src="images/icon_pagetop.png" alt="pagetop"></a></p>
+        <p id="copyright"><small>Copyright &copy;2020 Planque</small></p>
+    </footer>
+    <script src="js/top.js"></script>
+    <script>
+  jQuery(window).on("scroll", function() {
+      if (150 < jQuery(this).scrollTop()) {
+    $("#snslink").fadeIn("slow");
+    // jQuery("#snslink").css({
+    //   display: "block",
+    // });
+  } else {
+    $("#snslink").fadeOut("slow");
+    // jQuery("#snslink").css({
+    //   display: "none",
+    // });
+  }
+});
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+header h1 {
+    padding-left: 0;
+    float: left;
+}
+header div#logo a {
+    display: block;
+    float: left;
+}
+nav {
+    overflow: hidden;
+}
+nav ul {
+    float: left;
+}
+nav ul li {
+    float: none;
+}
+
+/*index*/
+div#myslider1 {
+    width: 100%;
+}
+div#contents div#news {
+    float: none;
+    width: 100%;
+}
+#news h2 {
+    width: 100%;
+}
+#news ul li {
+    padding: 
+}
+div#contents #twitter {
+    float: none;
+    width: 100%;
+}
